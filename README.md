@@ -1,57 +1,40 @@
-<div align="center">
+# Hi, I'm Meiko 👋
 
-# Hi there, I'm Meiko 👋
+### Embedded & IoT Engineer · Tokyo, Japan
 
-### Software Engineer · Tokyo, Japan 🇯🇵
+I connect things that were never meant to be connected, and then I keep them connected.
 
-*I build small, forgiving tools — software that still works when humans are busy, distracted, or typing with one hand.*
+By day I build device-to-cloud plumbing for industrial sensors: gateways in factory corners, MQTT brokers in the middle, and dashboards that someone in an office actually looks at. Most of my work lives in the unglamorous layer between a sensor that blinks and a graph that moves.
 
-</div>
+## What my days actually look like
 
-## 🙋‍♀️ About Me
+- Arguing with MQTT brokers (Mosquitto / EMQX / AWS IoT Core) about QoS levels, retained messages, and ACLs
+- Reading serial logs and packet captures until the one weird device explains itself
+- Finding out the "mystery outage" was an expired TLS certificate, a dead PoE switch, or someone unplugging the gateway to charge their phone
+- Driving to a site with a laptop, a spare gateway, and a bag of cables I refuse to throw away "just in case"
+- Writing the runbook afterwards, because future me deserves better than present me had
 
-- 🔭 I'm currently working on **[foolsearch](https://github.com/yoyoiyoi-yoichi/foolsearch)** — a typo-tolerant keyword search engine — and helping keep **[TaNaRi-Chan](https://github.com/shimauma0312/TaNaRi-Chan)** tidy (branches, PRs, CI)
-- 🌱 I'm currently learning **search systems**: lexical search, vector search, and how to hybridize them (OpenSearch is my current playground)
-- 🧪 I run my work like an experiment log: decide the rules up front, change one thing at a time, write down what actually happened
-- 💬 Ask me about **Python, TypeScript, keyword search, automation, and surviving a 75k-email inbox**
-- 📫 How to reach me: open an issue or a PR here — I read everything, and my PR comments are short on purpose
-- 👓 Fun fact: pink bob, dark glasses. The glasses are non-negotiable.
+## Toolbox
 
-## 🛠️ Tech Stack
+- **Protocols & platforms:** MQTT, Modbus, BLE, HTTP webhooks, AWS IoT Core, Node-RED
+- **Devices:** ESP32, Raspberry Pi, industrial gateways, whatever has a UART and opinions
+- **Languages:** Python for glue and tooling, C when I have to read what the firmware is really doing, shell for everything else
+- **Instruments of truth:** Wireshark, a logic analyzer, a multimeter, and `mosquitto_sub -v` at 2 a.m.
+- **Currently poking at:** Matter / Thread, and Rust for edge services that shouldn't need a reboot to behave
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?style=for-the-badge&logo=opensearch&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+## The gorilla thing
 
-## 🚀 Featured Project
+The lab calls me the gorilla, and honestly it's accurate. When a UPS needs carrying, a rack needs mounting, or a connector needs more hand strength than diplomacy, they come to me. I can rack a server and debug a broker ACL in the same afternoon, and I take both parts as a compliment.
 
-**[foolsearch](https://github.com/yoyoiyoi-yoichi/foolsearch)** — a foolproof keyword search engine for support-desk style lookups.
-Type very few keywords, make small typos, still get ranked candidates — every hit explains why it matched.
-Standard library only, because the best tool on a busy desk is the one that just runs.
+The pink bob and the dark glasses are so field techs can find me in a warehouse. It works.
 
-## 📊 GitHub Stats
+## How I think about the work
 
-<div align="center">
+- Measure first. Guessing is just debugging with extra confidence.
+- Log everything; the one value you didn't log is the one the incident will be about.
+- Change one thing at a time, write down what happened, and don't trust a fix you can't reproduce breaking.
+- Most ghost bugs are DNS, certificates, power, or cables. In that order, roughly.
 
-![Meiko's GitHub stats](https://github-readme-stats.vercel.app/api?username=yoyoiyoi-yoichi&show_icons=true&theme=transparent)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yoyoiyoi-yoichi&layout=compact&theme=transparent)
+Off the clock, my apartment is over-automated in ways I would never ship to a customer: too many sensors, a broker with opinions, and lights that mostly do what I meant. I regret nothing, and I'm not fixing the bathroom presence sensor. It stays.
 
-</div>
-
-## 🤝 How I Work
-
-- Small commits, short PRs, honest commit messages
-- I don't merge my own PRs without a review
-- If I break something, I say so first and fix it second
-- Automate the boring parts, keep the decisions human
-
----
-
-<div align="center">
-
-*Thanks for stopping by — よかったら、リポジトリ覗いていってください。*
-
-</div>
+— Meiko
