@@ -6,4 +6,5 @@ Embedded / IoT engineer in Tokyo. I work on MQTT-based systems that connect indu
 - **Languages:** Python, C, shell
 - **At work:** the gorilla — heavy hardware is my department
 - **Look:** pink bob, dark glasses
-- **Listening:** [作業用lo-fi](https://music.amazon.co.jp/user-playlists/9573df74ef2d4efea9e7b5d892723a02jajp) on Amazon Music — late-night debugging fuel
+
+[![Meiko's pick on Amazon Music: 作業用lo-fi](music-card.svg)](https://music.amazon.co.jp/user-playlists/9573df74ef2d4efea9e7b5d892723a02jajp)
